@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.cf {
+  display: flex;
+  justify-content: flex-start;
+  direction: rtl;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  right: 0;
+  padding: 0px;
+  margin: 0px;
+}
+.imgk {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.imgn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+li {
+  display: inline-block;
+  margin: 5px;
+}
+.con {
+  display: flex;
+  justify-content: center;
+}
