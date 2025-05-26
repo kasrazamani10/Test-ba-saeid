@@ -33,3 +33,25 @@ li {
   display: flex;
   justify-content: center;
 }
+p {
+  font-size: 40px;
+  font-weight: 500;
+}
+.p1 {
+  color: blue;
+}
+.p2 {
+  color: red;
+}
+.p3 {
+  color: yellow;
+}
+.p4 {
+  color: blue;
+}
+.p5 {
+  color: green;
+}
+.p6 {
+  color: red;
+}
