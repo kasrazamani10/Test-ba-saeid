@@ -1,11 +1,29 @@
+/*html {
+  scroll-behavior: smooth;
+}*/
+
 * {
   margin: 0px;
   padding: 0px;
+}
+@keyframes blink {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #c74c4c;
+  }
+  100% {
+    background-color: #fff;
+  }
 }
 .cf {
   display: flex;
   justify-content: flex-start;
   direction: rtl;
+}
+.cont {
+  min-height: 100vh;
 }
 ul {
   list-style-type: none;
@@ -59,6 +77,10 @@ input {
   border: 1px solid #d6d6d6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 15px;
+}
+input:focus {
+  outline: none;
+  padding-left: 10px;
 }
 
 .pg {
