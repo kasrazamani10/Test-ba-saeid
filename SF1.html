@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="cssbot/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="cssme/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <title>تست اول با سعید</title>
   </head>
   <body>
-    <div class="container-fulid cf">
+    <div class="container-fulid d-flex" dir="rtl">
       <div class="row">
         <div class="col-sm-2 col-md-8 col-lg-2">
           <ul>
@@ -32,7 +36,12 @@
             <p class="p5">l</p>
             <p class="p6">e</p>
           </div>
-          <input type="text" autocomplete="on" placeholder="" />
+          <div class="input-wrapper">
+            <i class="fas fa-search fsearch"></i>
+            <input type="text" autocomplete="on" placeholder="" />
+            <i class="fas fa-microphone fmic"></i>
+            <i class="fas fa-camera fcam"></i>
+          </div>
           <div class="d-flex justify-content-center gap-5 mt-2">
             <p class="pg">Google search</p>
             <p class="pg">I'm feeling lucky</p>
@@ -40,15 +49,17 @@
         </div>
       </div>
     </div>
-    <div class="container-fulid bg-info">
-      <div class="d-flex justify-content-between px-2">
-        <div class="d-flex gap-2">
+    <div class="container-fulid bg-light">
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-center px-2"
+      >
+        <div class="d-flex justify-content-md-start gap-3">
           <p>About</p>
           <p>Adrertising</p>
           <p>business</p>
           <p>HOw search Works</p>
         </div>
-        <div class="d-flex gap-2">
+        <div class="d-flex justify-content-md-end gap-3">
           <p>Privacy</p>
           <p>Terms</p>
           <p>Settings</p>
