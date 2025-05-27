@@ -17,11 +17,11 @@
     background-color: #fff;
   }
 }
-.cf {
+/*.cf {
   display: flex;
   justify-content: flex-start;
   direction: rtl;
-}
+}*/
 .cont {
   min-height: 100vh;
 }
@@ -48,7 +48,7 @@ li {
 }
 /*---#----444444444444-----#--------------#*/
 .p1-6 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
 }
 .p1 {
@@ -69,20 +69,46 @@ li {
 .p6 {
   color: red;
 }
-input {
-  width: 80%;
-  max-width: 800px;
-  height: 30px;
+.input-wrapper input {
+  width: 100%;
+  height: 45px;
   border-radius: 20px;
   border: 1px solid #d6d6d6;
+  padding-left: 35px;
+  padding-right: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 15px;
 }
+.input-wrapper {
+  position: relative;
+  width: 100%;
+}
 input:focus {
   outline: none;
-  padding-left: 10px;
+  padding-left: 22px;
 }
-
+.fsearch {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+.fmic,
+.fcam {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+.fmic {
+  right: 10px;
+}
+.fcam {
+  right: 40px;
+}
 .pg {
   background-color: #d6d6d6b8;
   padding: 5px;
