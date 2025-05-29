@@ -23,34 +23,59 @@
   justify-content: flex-start;
   direction: rtl;
 }*/
-.cont {
-  min-height: 100vh;
-}
+
 ul {
   list-style-type: none;
-  display: flex;
-  right: 0;
-  padding: 0px;
-  margin: 0px;
+}
+ul li {
+  margin: 5px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+ul li:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  border-radius: 15px;
 }
 .imgk {
   width: 30px;
   height: 30px;
   border-radius: 50px;
 }
-.imgn {
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
+.imgk:hover {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  box-shadow: 0 0 0 10px #f1f1f1;
+}
+li.icn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.icn {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.icn:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 0 0 15px #f1f1f1;
   cursor: pointer;
+  border-radius: 20px;
 }
-li {
-  margin: 5px;
-}
+
 /*---#----444444444444-----#--------------#*/
+.row1 {
+  margin-bottom: 155px;
+  width: 90%;
+}
 .p1-6 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 500;
+}
+.p1-6 p {
+  margin: 0 -1px;
 }
 .p1 {
   color: blue;
@@ -69,7 +94,9 @@ li {
 }
 .p6 {
   color: red;
+  transform: rotate(-20deg);
 }
+
 .input-wrapper input {
   width: 100%;
   height: 45px;
@@ -80,14 +107,19 @@ li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 15px;
 }
+
 .input-wrapper {
   position: relative;
   width: 100%;
 }
 input:focus {
   outline: none;
-  padding-left: 22px;
+  padding-left: 28px;
 }
+input:focus::placeholder {
+  color: transparent;
+}
+
 .fsearch {
   position: absolute;
   top: 50%;
