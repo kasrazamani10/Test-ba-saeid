@@ -24,45 +24,46 @@
   direction: rtl;
 }*/
 
-ul {
-  list-style-type: none;
-}
 ul li {
   margin: 5px;
   padding: 5px 5px;
+  list-style-type: none;
   cursor: pointer;
 }
 ul li:hover {
-  text-decoration: underline;
   transition: all 0.3s ease;
-  border-radius: 15px;
+}
+.gmaill:hover {
+  text-decoration: underline;
+}
+.images:hover {
+  text-decoration: underline;
 }
 .imgk {
   width: 30px;
   height: 30px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .imgk:hover {
-  background-color: #f1f1f1;
   border-radius: 25px;
-  box-shadow: 0 0 0 10px #f1f1f1;
+  box-shadow: 0 0 0 7px #f1f1f1;
 }
-li.icn {
+.icn1 {
   width: 40px;
   height: 40px;
-  border-radius: 20px;
-}
-.icn {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5%;
 }
 
-.icn:hover {
+.icn1:hover {
   background-color: #f1f1f1;
-  box-shadow: 0 0 0 15px #f1f1f1;
-  cursor: pointer;
-  border-radius: 20px;
+}
+.icn {
+  font-size: 20px;
 }
 
 /*---#----444444444444-----#--------------#*/
@@ -78,22 +79,22 @@ li.icn {
   margin: 0 -1px;
 }
 .p1 {
-  color: blue;
+  color: #4285f4;
 }
 .p2 {
-  color: red;
+  color: #ea4335;
 }
 .p3 {
-  color: yellow;
+  color: #fbbc05;
 }
 .p4 {
-  color: blue;
+  color: #4285f4;
 }
 .p5 {
-  color: green;
+  color: #34a853;
 }
 .p6 {
-  color: red;
+  color: #ea4335;
   transform: rotate(-20deg);
 }
 
